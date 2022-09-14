@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #2c3254;
+    font-family: system ui;
+    overflow: hidden;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.logo{
+    color: #f1f1f1;
+    margin: 0px;
+    margin-left: 30px;
+
+}
+
+.logo span{
+    color: red;
+}
+
+.sidenav{
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1b203d;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+
+}
+
+.sidenav a{
+    color: #818181;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 15px 8px 15px 32px;
+    transition: 0.5s;
+}
+
+.sidenav a:hover{
+    background-color: #1b203d;
+    color: #f1f1f1;
+}
+
+.sidenav {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.main{
+    transition: 0.5s;
+    padding: 15px;
+    margin-left: 300px;
+}
+
+.head{
+    padding: 20px;
+}
+
+.col-div-6{
+    width: 50%;
+    float: left;
+}
+
+.profile{
+    display: inline-block;
+    float: right;
+}
+
+.pro-img{
+    width: 40px;
+    margin-top: 5px;
+    float: left;
+}
+
+.profile p{
+    color: white;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 13.5px;
+}
+
+.profile p span{
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    color: #8b8b8b;
+}
+
+.col-div-3{
+    width: 25%;
+    float: left;
+}
+
+.box{
+    width: 85%;
+    height: 100px;
+    background-color: #272c4a;
+    margin-left: 10px;
+
+}
